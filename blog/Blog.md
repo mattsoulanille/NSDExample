@@ -156,7 +156,7 @@ public void tearDown() {
 
 
 
-## Images
+## Images of the Example App
 
 ![Nexus](./images/Nexus 5x.png)
 
