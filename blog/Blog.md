@@ -158,9 +158,9 @@ public void tearDown() {
 
 ## Images
 
-[Nexus]: ./images/Nexus 5x.png
+![Nexus](./images/Nexus 5x.png)
 
-[Motorola]: ./images/Moto g4.png
+![Motorola](./images/Moto g4.png)
 
 
 
