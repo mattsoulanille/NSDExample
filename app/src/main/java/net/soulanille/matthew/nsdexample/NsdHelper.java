@@ -17,11 +17,11 @@ import java.util.LinkedHashMap;
 import java.util.List;
 
 
-public class NsdExample extends DataSetObservable {
+public class NsdHelper extends DataSetObservable {
 
     private static String SERVICE_TYPE = "_http._tcp.";
     private static String SERVICE_NAME = "NsdChat";
-    private static String TAG = "NsdExample";
+    private static String TAG = "NsdHelper";
     private ServerSocket mServerSocket;
     public int mLocalPort;
     private NsdManager.RegistrationListener mRegistrationListener;
@@ -34,7 +34,7 @@ public class NsdExample extends DataSetObservable {
     private ArrayList<String> addressList;
 
 
-    public NsdExample(Context context) throws IOException {
+    public NsdHelper(Context context) throws IOException {
         mContext = context;
         initializeServerSocket();
         mPeers = new LinkedHashMap<InetAddress, NsdServiceInfo>();

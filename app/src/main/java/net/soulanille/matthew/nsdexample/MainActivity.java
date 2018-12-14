@@ -9,12 +9,11 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import java.io.IOException;
-import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
     private ListView peerView;
-    private NsdExample mNsdHelper;
+    private NsdHelper mNsdHelper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         try {
-            mNsdHelper = new NsdExample(context);
+            mNsdHelper = new NsdHelper(context);
 
             ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(
                     this,
