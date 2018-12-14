@@ -160,7 +160,7 @@ public void tearDown() {
 
 ![Nexus](https://github.com/mattsoulanille/NSDExample/blob/master/blog/images/Nexus%205x.png)
 
-![Motorola](https://github.com/mattsoulanille/NSDExample/tree/master/blog/images/Moto20%g4.png)
+![Motorola](https://github.com/mattsoulanille/NSDExample/blob/master/blog/images/Moto%20g4.png)
 
 
 
